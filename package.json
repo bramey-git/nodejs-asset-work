@@ -27,7 +27,7 @@
         "type": "git",
         "url": "git+https://github.com/dfmedia/horizon-dev-hw.git"
     },
-    "author": "John Harris",
+    "author": "John Harris & James Hanley",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/dfmedia/horizon-dev-hw/issues"
