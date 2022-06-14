@@ -15,7 +15,6 @@
         "eslint": "eslint",
         "jest": "jest --verbose --config=jest.config.json",
         "lint": "npm run eslint -- \"src/**/*.ts\"",
-        "postinstall": "npm audit && npm run jest",
         "postversion": "git push && git push --tags && npm run clean:dist",
         "preversion": "npm test",
         "open": "open-cli",
@@ -28,7 +27,7 @@
         "type": "git",
         "url": "git+https://github.com/dfmedia/horizon-dev-hw.git"
     },
-    "author": "John Harris",
+    "author": "John Harris & James Hanley",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/dfmedia/horizon-dev-hw/issues"

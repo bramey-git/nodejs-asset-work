@@ -1,5 +1,17 @@
-# horizon-dev-hw
+# Introduction
 
-The goal of this HW is to create a react web app that loads the weekend box office movies from the IMDb API and render it into a table. This table should contain the movie title, rank, gross, and weeks information. Details for how to get the data from IMDb can be found here: https://imdb-api.com/api
+Hello and thank you for taking the time to work on this small sample project for us. We know you are busy with other things and do not want to spend time eating up your day with too much. This project is built and set up for you, so a simple ```npm i``` and ```npm run start``` will get you up and running.
+This project will primarily focus on fetching data and manipulating results from an open API.
+The API and its documentation can be found [here](https://docs.coincap.io/)
 
-The project can be started by running `npm start` from the project root directory.
+### Instructions
+
+There are 3 sections we are looking for you to complete.
+
+1. Retrieve and display a list of assets, ranked 1-5.
+2. Retrieve the asset monero. Display the symbol and current price rounded up to the hundredths place.
+3. Retrieve the asset bitcoins daily price history. Display the average of a weeks worth of price data.
+
+### Advice
+
+There are no restrictions on package usage, if you wish to use Axios or something else feel free. Styling and other things are fine as well, but not a main priority given the time constraints. Feel free to reach out for any further questions.
