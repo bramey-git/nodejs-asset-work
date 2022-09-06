@@ -6,11 +6,15 @@ The API and its documentation can be found [here](https://docs.coincap.io/)
 
 ### Instructions
 
-There are 3 sections we are looking for you to complete.
+1. Create a fork of this repository.
+1. Clone your fork to your local machine.
+1. Write your code. There are 3 sections we are looking for you to complete.
+   1. Retrieve and display a list of assets, ranked 1-5.
+   1. Retrieve the asset monero. Display the symbol and current price rounded up to the hundredths place.
+   1. Retrieve the asset bitcoins daily price history. Display the average of one week of price data.
+1. Push your changes to your fork.
+1. Send us the url to your fork. Please *do not* open a pull-request, doing so will allow other candidates to see your work!
 
-1. Retrieve and display a list of assets, ranked 1-5.
-2. Retrieve the asset monero. Display the symbol and current price rounded up to the hundredths place.
-3. Retrieve the asset bitcoins daily price history. Display the average of one week of price data.
 
 ### Advice
 
