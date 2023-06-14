@@ -1,7 +1,8 @@
 # Introduction
 
 Hello and thank you for taking the time to work on this small sample project for us. We know you are busy with other things and do not want to spend time eating up your day with too much. This project is built and set up for you, so a simple ```npm i``` and ```npm run start``` will get you up and running.
-This project will primarily focus on fetching data and manipulating results from an open API.
+This project will primarily focus on fetching data and manipulating results from an open API. We are also looking for you to write this using lit. The majority of our new projects will be using the Lit Library.
+The Lit Documentation can be found [here](https://lit.dev/docs/getting-started/)
 The API and its documentation can be found [here](https://docs.coincap.io/)
 
 ### Instructions
