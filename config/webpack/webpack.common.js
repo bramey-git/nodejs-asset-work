@@ -11,8 +11,8 @@ const { joinRelativeToProjectRootDirectory } = require('../utils');
 module.exports = function () {
     return {
         entry: {
-            main: joinRelativeToProjectRootDirectory('src', 'main.tsx'),
-            vendors: ['react', 'react-dom']
+            main: joinRelativeToProjectRootDirectory('src', 'main.js'),
+            vendors: ['lit']
         },
         module: {
             rules: [
@@ -48,14 +48,17 @@ module.exports = function () {
                     )
                 )
             }),
-            new HtmlPlugin()
+            new HtmlPlugin({
+                filename: 'index.html',
+                template: './public/index.html',
+            })
         ],
         output: {
             path: joinRelativeToProjectRootDirectory('dist'),
             filename: '[name].js'
         },
         resolve: {
-            extensions: ['.js', '.ts', '.tsx', '.json']
+            extensions: ['.js', '.ts', '.tsx', '.json','.png']
         },
         target: 'web'
     };

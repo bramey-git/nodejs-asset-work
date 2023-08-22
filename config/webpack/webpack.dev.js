@@ -13,7 +13,7 @@ const { joinRelativeToProjectRootDirectory } = require('../utils');
 module.exports = function() {
     const devWebpackConfig = {
         devServer: {
-            contentBase: joinRelativeToProjectRootDirectory('dist')
+            static: joinRelativeToProjectRootDirectory('dist')
         },
         devtool: 'inline-source-map',
         mode: 'development',
